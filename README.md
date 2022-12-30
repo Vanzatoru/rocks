@@ -13,24 +13,24 @@ ca acestea să se atace reciproc. </h1>
 
 
 <h2> Functii folosite in rock: </h2>
-<img src="documentatie/attacked.png"/>
+<img src="documentatie/attacked.PNG"/>
 <p>Functie attacked este cea mai simpla functie din program, ea verifica daca parametrul primit este "atacat de un turn", verifica daca acel element din matrice se face pe aceeasi linie sau coloana cu numarul 5 care reprezinta turnul</p>
 
 <h2> Functiile attack_l si attack_c: </h2>
-<img src="documentatie/attacklc.png"/>
+<img src="documentatie/attacklc.PNG"/>
 <p> Aceste functii sunt aproape identice, singura diferenta este ca una va pune toate elementele pe -1 de pe linie, iar cealalta de pe coloana</p>
 <p> Ideaa este ca turnul pus pe tabla va ataca linia si colana pe care se afla</p>
 
 <h2> Functia create_table: </h2>
-<img src="documentatie/create.png"/>
+<img src="documentatie/create.PNG"/>
 <p> Aceasta functie a fost folosita si in main pentru a pune toate elementele pe 0, ea va fi folosita in functie rock pentru a "curata tabla de sah de turnuri"</p>
 
 <h2> Functia print_table: </h2>
-<img src="documentatie/print.png"/>
+<img src="documentatie/print.PNG"/>
 <p> Functie de afisare a matricei, dar sub forma unei table de sah in care R reprezinta turnul (R de la rook din engleza) </p>
 
 <h2> Functia rock: </h2>
-<img src="documentatie/rock.png"/>
+<img src="documentatie/rock.PNG"/>
 <p> Aceasta este functie recursiva, primeste ca parametrii matricea table, variabilele x si y </p>
 <p> Initial va pune pe tabla primul turn, pozitia lui va fi data de x si y<p>
 <p> Pasul urmator va fi sa parcurgem matricea in cautarea unei pozitii in care putem aseza urmatorul turn. Acest pas se va repeta pana nu mai este loc pe tabla</p>
